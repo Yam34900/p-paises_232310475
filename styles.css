@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f2f4f7; }
+header { background: #1f4e8c; color: white; padding: 20px; text-align: center; }
+input { padding: 8px; width: 240px; }
+button { padding: 8px 16px; cursor: pointer; }
+#mensaje { min-height: 20px; }
+#resultados { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; padding: 20px; }
+.tarjeta { background: white; border-radius: 8px; padding: 12px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.tarjeta img { width: 100%; height: 120px; object-fit: cover; border-radius: 4px; }

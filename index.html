@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de países</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Buscador de países</h1>
+    <form id="formBuscar">
+      <input type="text" id="txtPais" placeholder="Escribe un país, ej. Mexico" required>
+      <button type="submit">Buscar</button>
+    </form>
+    <p>o elige una región:
+      <select id="selRegion">
+        <option value="">-- Selecciona una región --</option>
+        <option value="Americas">América</option>
+        <option value="Europe">Europa</option>
+        <option value="Asia">Asia</option>
+        <option value="Africa">África</option>
+        <option value="Oceania">Oceanía</option>
+      </select>
+      &nbsp; Ordenar por:
+      <select id="selOrden">
+        <option value="nombre">Nombre (A-Z)</option>
+        <option value="poblacion">Población (mayor a menor)</option>
+      </select>
+    </p>
+    <p id="mensaje"></p>
+  </header>
+  <main id="resultados"></main>
+  <script src="app.js"></script>
+</body>
+</html>
